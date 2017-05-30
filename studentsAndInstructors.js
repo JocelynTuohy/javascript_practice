@@ -1,7 +1,3 @@
-<html>
-  <head>
-    <script>
-
 var users = {
  'Students': [ 
      {first_name:  'Michael', last_name : 'Jordan'},
@@ -28,7 +24,7 @@ function studentNames(students){
   }
 }
 
-function studentsAndTeachers(users){
+function studentsAndInstructors(users){
   var count;
   var sum;
   for (var userType in users){
@@ -42,10 +38,3 @@ function studentsAndTeachers(users){
     }
   }
 }
-
-    </script>
-  </head>
-  <body>
-    
-  </body>
-</html>
